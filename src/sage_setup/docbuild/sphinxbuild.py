@@ -90,7 +90,7 @@ class SageSphinxLogger(object):
             re.compile('^copying static files... done'),
             re.compile('^copying extra files... done'),
             re.compile(r'^loading translations \[.*\]... done'),
-            re.compile('^Compiling the master document'),
+            re.compile('^Compiling the main document'),
             re.compile('^Saved pickle file: citations.pickle'),
             re.compile(r'^writing output... \[.*\] '),
             re.compile(r'^copying images... \[.*\] '),
